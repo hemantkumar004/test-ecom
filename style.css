@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* navbar styling */
+.logo a{
+    font-family: cursive;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+    /* .fixted-navbbar{
+        position: sticky;
+        top: 15px;
+        margin-left:30px ;
+    } */
+.navbar{
+    margin-top: 15px;
+    background-color: rgba(220, 213, 213, 0.383);
+    border-radius: 15px;
+}
+.nav-icons , footer-icon{
+    display: flex;
+   /* background: #000; */
+}
+.catagory-section{
+    margin-left: 14px;
+}
+
+.catagory-section a{
+     cursor: pointer;
+     text-decoration: none;
+    color: black;
+}
+
+.catagory-section:hover{
+ border-bottom: 2px solid black;
+}
+
+.nav-icon img{
+    width: 35px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+#logout-btn{
+   border-radius: 15px;
+   }
+/* footer section styling */
+.footer-icons a{
+   text-decoration: none;
+   color: black;
+    cursor: pointer;
+    margin-left: 15px;
+}
+    .footer-icon img{
+        width: 20px;
+        margin-left: 15px;
+        cursor: pointer;
+    }
+
+/* login-section modal styling*/
+/* .login-section{
+    margin: auto;
+    padding: 10px;
+border-radius: 12px;
+box-shadow: 30px 25px 25px rgba(131, 127, 127, 0.267);
+    margin: 6em 30em;
+    border: 2px solid black;
+    width: 400px; 
+}
+*/  
+/* index page styping */
+
+  /* .p-card {
+    border: 2px solid rgb(0, 0, 0);
+    margin-top: 60px;
+    padding: 10px;
+    border-radius: 5px;
+    width: auto;
+    height: auto;
+}
+.p-img img {
+   width: auto; 
+    height: auto;
+    padding-left:40px ;
+}
+.p-title {
+    font-weight: bold;
+    margin-top: 10px;
+}
+.p-discrip {
+    color: #666;
+    margin-top: 5px;
+}
+.p-price {
+    font-size: 18px;
+    margin-top: 5px;
+}
+.rating {
+    margin-top: 5px;
+} */
