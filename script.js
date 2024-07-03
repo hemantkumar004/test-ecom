@@ -54,19 +54,19 @@ function showMoreProducts(products) {
 
     container.innerHTML = '';
 
-    products.forEach((product, index) => {
+    products.forEach((product) => {
       
-        if (index % 3 === 0) {
-            data += '<div class="w-100"></div>'; 
-        }
+        // if (index % 3 === 0) {
+        //     data += '<div class="w-100"></div>'; 
+        // }
         data += `
-            <div class="col-lg-4 col-md-6 ">
-                <div class="p-card">
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="p-card ">
                     <div class="p-img"><img src="${product.thumbnail}" alt="${product.title}"></div>
                     <hr>
                     <div class="p-title">${product.title}</div>
-                    <div class="p-discrip">${product.description.slice(0, 50)}...</div>
-                    <span class="p-price">$${product.price}</span>
+                    <div class="p-discrip">${product.description.slice(0, 37)}...</div>
+                    <span class="p-price">₹ ${product.price }</span>
                     <span class="rating text-success">Rating: ${product.rating}</span>
                 </div>
             </div>
