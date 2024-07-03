@@ -82,13 +82,15 @@ box-shadow: 30px 25px 25px rgba(131, 127, 127, 0.267);
 
   .p-card {
     border: 2px solid rgb(0, 0, 0);
-    margin-top: 60px;
+    margin-top: 10px;
     padding: 10px;
     border-radius: 5px;
     max-width: 350px;
     height: auto;
 }
-
+.p-card:nth-child(1){
+    margin-top: 30px; 
+}
 .p-img {
     max-width: auto; 
      height: auto;
@@ -122,9 +124,12 @@ img {
     .ris{
        display: none;
     }  
-    /* .logo{
-       padding-left: px;
-      } */
+    #main{
+       /* text-align: center;
+        */
+        margin: auto;
+        margin-left: 6px;
+      } 
     .burger-img {
         display: block;
             height: 20px;
